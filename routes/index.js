@@ -1,5 +1,5 @@
 const express = require('express');
-
+const router = express.Router();
 
 router.get('/', (req, res) => {
     res.locals.projects = data.projects;
@@ -12,5 +12,7 @@ router.get('/about', (req, res) => {
 
 router.get('/:id', (req, res) => {
     const {id} = req.params;
-    res.render('project', {projects[id]});
+    res.render('project', {projects});
 });
+
+module.exports = router;
