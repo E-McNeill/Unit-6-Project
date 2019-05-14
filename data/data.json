@@ -1,0 +1,43 @@
+{
+"projects":[
+    {"id":0, 
+    "project_name": "A Random Quote Generator",
+    "description":"A program that displays a randomly selected quote each time the user clicks a button.",
+    "technologies":["html", "JavaScript", "CSS"],
+    "live_link":"",
+    "github_link":"https://github.com/E-McNeill/Unit-1-Project",
+    "image_urls":["../images/P1_550_550", "../images/P1_1200_550"]
+},
+{"id":1, 
+    "project_name": "List Pagination and Filtering" ,
+    "description": "A program that uses JavaScript to divide a long list into a series of pages and improve the user experience of a web page.",
+    "technologies":["html", "JavaScript", "CSS"],
+    "live_link":"",
+    "github_link":"https://github.com/E-McNeill/Unit-2-Project",
+    "image_urls":["../images/P2_550_550", "../images/P2_1200_550"]
+},
+{"id":2, 
+    "project_name": "Interactive Form",
+    "description":"A program that uses JavaScript to enhance a form so that it’s engaging, interactive, and easy to use.",
+    "technologies":["html", "JavaScript", "CSS", "JQuery", "REGEX"],
+    "live_link":"",
+    "github_link":"https://github.com/E-McNeill/Unit-3-Project",
+    "image_urls":["../images/P3_550_550", "../images/P3_1200_550"]
+},
+{"id":3, 
+    "project_name":"OOP Game Show App",
+    "description":"A browser-based, word guessing game that uses JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase.",
+    "technologies": ["html", "JavaScript", "CSS", "OOP"],
+    "live_link":"",
+    "github_link":"https://github.com/E-McNeill/Unit-4-Project",
+    "image_urls":["../images/P4_550_550", "../images/P4_1200_550"]
+},
+{"id":4, 
+    "project_name":"Public API Requests",
+    "description":"An employee directory that communicates with a third-party API. ",
+    "technologies":["html", "JavaScript", "CSS", "JQuery", "API", "GIT", "AJAX"],
+    "live_link":"",
+    "github_link":"https://github.com/E-McNeill/Unit-5-Project",
+    "image_urls":["../images/P5_550_550", "../images/P5_1200_550"]
+}
+]}
