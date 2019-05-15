@@ -15,8 +15,9 @@ router.get('/about', (req, res) => {
 
 router.get('/project/:id', (req, res) => {
    const id = req.params.id;
-        //res.locals.project = projects[`${id}`];
-        res.render('project', data.projects[id]);
+        res.locals.project = projects[`${id}`];
+       res.render('project', projects[id]);
+       // res.render('project');
     
 });
 
