@@ -17,7 +17,7 @@ app.get('/about', (req, res) => {
 });
 
 
-app.get("/projects/:id", (req, res) => {
+router.get("/projects/:id", (req, res) => {
     const id = req.params.id;
     const myProject = projects[id];
     res.render("project", {myProject});
@@ -40,3 +40,4 @@ app.use((err, req, res, next) => {
 app.listen(3000,() => {
     console.log('the application is running on localhost:3000!');
 });
+
