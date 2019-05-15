@@ -1,19 +1,20 @@
-const express = require('express');
-const router = express.Router();
+// const express = require('express');
+// const router = express.Router();
 
 
-router.get('/', (req, res) => {
-    res.locals.projects = data.projects;
-    res.render('index');
-});
 
-router.get('/about', (req, res) => {
-    res.render('about');
-});
+// // router.get('/', (req, res) => {
+// //     res.locals.projects = data.projects;
+// //     res.render('index', {projects});
+// // });
 
-router.get('/:id', (req, res) => {
-    const {id} = req.params;
-    res.render('project', {projects});
-});
+// // router.get('/about', (req, res) => {
+// //     res.render('about');
+// // });
 
-module.exports = router;
+// // router.get('/:id', (req, res) => {
+// //     const {id} = req.params;
+// //     res.render('project', {projects});
+// // });
+
+// module.exports = router;

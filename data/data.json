@@ -6,7 +6,7 @@
     "technologies":["html", "JavaScript", "CSS"],
     "live_link":"",
     "github_link":"https://github.com/E-McNeill/Unit-1-Project",
-    "image_urls":["../images/P1_550_550", "../images/P1_1200_550"]
+    "image_urls":["/static/images/P1_550_550.png", "/static/images/P1_1200_550.png"]
 },
 {"id":1, 
     "project_name": "List Pagination and Filtering" ,
@@ -14,7 +14,7 @@
     "technologies":["html", "JavaScript", "CSS"],
     "live_link":"",
     "github_link":"https://github.com/E-McNeill/Unit-2-Project",
-    "image_urls":["../images/P2_550_550", "../images/P2_1200_550"]
+    "image_urls":["./static/images/P2_550_550.png", "/static/images/P2_1200_550.png"]
 },
 {"id":2, 
     "project_name": "Interactive Form",
@@ -22,7 +22,7 @@
     "technologies":["html", "JavaScript", "CSS", "JQuery", "REGEX"],
     "live_link":"",
     "github_link":"https://github.com/E-McNeill/Unit-3-Project",
-    "image_urls":["../images/P3_550_550", "../images/P3_1200_550"]
+    "image_urls":["/static/images/P3_550_550.png", "/static/images/P3_1200_550.png"]
 },
 {"id":3, 
     "project_name":"OOP Game Show App",
@@ -30,7 +30,7 @@
     "technologies": ["html", "JavaScript", "CSS", "OOP"],
     "live_link":"",
     "github_link":"https://github.com/E-McNeill/Unit-4-Project",
-    "image_urls":["../images/P4_550_550", "../images/P4_1200_550"]
+    "image_urls":["/static/images/P4_550_550.png", "/static/images/P4_1200_550.png"]
 },
 {"id":4, 
     "project_name":"Public API Requests",
@@ -38,6 +38,6 @@
     "technologies":["html", "JavaScript", "CSS", "JQuery", "API", "GIT", "AJAX"],
     "live_link":"",
     "github_link":"https://github.com/E-McNeill/Unit-5-Project",
-    "image_urls":["../images/P5_550_550", "../images/P5_1200_550"]
+    "image_urls":["/static/images/P5_550_550.png", "/static/images/P5_1200_550.png"]
 }
 ]}
