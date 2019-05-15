@@ -1,27 +1,14 @@
 const express = require('express');
 const router = express.Router();
-const data = require('./data/data.json');
-const projects = data.projects;
 const app = express();
 
 app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
-app.get('/', (req, res) => {
-    res.locals.projects = data.projects; //required??
-    res.render('index', {projects});
-});
-
-app.get('/about', (req, res) => {
-    res.render('about');
-});
+const mainRoutes = require('./routes');
+app.use(mainRoutes);
 
 
-router.get("/projects/:id", (req, res) => {
-    const id = req.params.id;
-    const myProject = projects[id];
-    res.render("project", {myProject});
-});
 
   app.use((req, res, next) => {
     const err = new Error();

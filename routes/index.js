@@ -1,20 +1,23 @@
-// const express = require('express');
-// const router = express.Router();
+const express = require('express');
+const router = express.Router();
+const data = require('../data/data.json');
+const projects = data.projects;
+const app = express();
 
+router.get('/', (req, res) => {
+    res.locals.projects = data.projects;
+    res.render('index', {projects});
+});
 
+router.get('/about', (req, res) => {
+    res.render('about');
+});
 
-// // router.get('/', (req, res) => {
-// //     res.locals.projects = data.projects;
-// //     res.render('index', {projects});
-// // });
+router.get('/project/:id', (req, res) => {
+   const id = req.params.id;
+        //res.locals.project = projects[`${id}`];
+        res.render('project', data.projects[id]);
+    
+});
 
-// // router.get('/about', (req, res) => {
-// //     res.render('about');
-// // });
-
-// // router.get('/:id', (req, res) => {
-// //     const {id} = req.params;
-// //     res.render('project', {projects});
-// // });
-
-// module.exports = router;
+module.exports = router;
